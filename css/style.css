@@ -37,6 +37,15 @@ p {
 
 figure {
   text-align: center;
+
+}
+
+.images {
+    background-image: url(../images/instagram-pic.jpg);
+    width:600px;
+    height:600px;
+    background-size: contain;
+    display: inline-block;
 }
 
 .author {
@@ -53,10 +62,17 @@ figure {
   width: 70%;
 }
 
-.left, .right {
-  float: left;
-  width: 50%;
+.left {
+  background-image: url(../images/bloc-logo.png);
+  width: 160px;
+  margin: 20px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:left;
 }
+
+
 
 .right {
   float: right;
